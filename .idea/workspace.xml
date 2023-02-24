@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="645ace99-8ef7-4e14-8d88-83850e7993e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/regex/UserRegistrationRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/regex/UserRegistrationRegex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
