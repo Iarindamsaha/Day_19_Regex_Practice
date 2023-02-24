@@ -22,6 +22,21 @@ public class UserRegistrationRegex {
             System.out.println("Check : First Name is Invalid");
         }
 
+        //UC2
+        System.out.println();
+
+        System.out.print("Enter Your LastName : ");
+        String lastName = sc.nextLine();
+
+        if (Pattern.matches("^[A-Z][a-z]{3,}", lastName)) {
+
+            System.out.println("Check : Last name is Valid");
+        } else {
+            System.out.println("Check : Last name Invalid");
+        }
+
+
+
 
 
     }
