@@ -61,6 +61,20 @@ public class UserRegistrationRegex {
             System.out.println("Check : Phone Number is Invalid ");
         }
 
+        //UC5( Password >> Rule 1)
+        System.out.println();
+
+        System.out.print("Enter Your Password : ");
+        String passWord = sc.nextLine();
+
+        if (Pattern.matches("^[A-Za-z]{8,}$", passWord)) {
+
+            System.out.println("Check : Password is Valid ");
+        } else {
+            System.out.println("Check : Password is Invalid || Password Must Contain 8 Characters ");
+        }
+
+
 
 
 
