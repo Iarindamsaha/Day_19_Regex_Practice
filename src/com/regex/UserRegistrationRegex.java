@@ -28,12 +28,27 @@ public class UserRegistrationRegex {
         System.out.print("Enter Your LastName : ");
         String lastName = sc.nextLine();
 
-        if (Pattern.matches("^[A-Z][a-z]{3,}", lastName)) {
+        if (Pattern.matches("^[A-Z][a-z]{3,}$", lastName)) {
 
             System.out.println("Check : Last name is Valid");
         } else {
             System.out.println("Check : Last name Invalid");
         }
+
+        //UC3
+        System.out.println();
+
+        System.out.print("Enter Your Email Address : ");
+        String email = sc.nextLine();
+
+        if (Pattern.matches("^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+(@)[a-z0-9]+[.][a-z]+[.]?[a-z]+$", email)) {
+
+            System.out.println("Check : Email is Valid");
+        } else {
+            System.out.println("Check : Email Invalid");
+        }
+
+
 
 
 
