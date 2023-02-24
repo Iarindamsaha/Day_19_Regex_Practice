@@ -62,17 +62,31 @@ public class UserRegistrationRegex {
         }
 
         //UC5( Password >> Rule 1)
+        //System.out.println();
+//
+        //System.out.print("Enter Your Password : ");
+        //String passWord = sc.nextLine();
+//
+        //if (Pattern.matches("^[A-Za-z]{8,}$", passWord)) {
+//
+        //    System.out.println("Check : Password is Valid ");
+        //} else {
+        //    System.out.println("Check : Password is Invalid || Password Must Contain 8 Characters ");
+        //}
+
+        //UC6( Password >> Rule 2)
         System.out.println();
 
         System.out.print("Enter Your Password : ");
         String passWord = sc.nextLine();
 
-        if (Pattern.matches("^[A-Za-z]{8,}$", passWord)) {
+        if (Pattern.matches("^(?=.*[A-Z])[a-z].{8,}$", passWord)) {
 
             System.out.println("Check : Password is Valid ");
         } else {
-            System.out.println("Check : Password is Invalid || Password Must Contain 8 Characters ");
+            System.out.println("Check : Password is Invalid || Password Must Contain One Capital Letter with 8 Characters ");
         }
+
 
 
 
