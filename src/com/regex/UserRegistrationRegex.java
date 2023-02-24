@@ -100,7 +100,7 @@ public class UserRegistrationRegex {
  //           System.out.println("Check : Password is Invalid || Password Must Contain One Capital Letter with 8 Characters ");
  //       }
 
-        //UC7( Password >> Rule 3)
+        //UC8( Password >> Rule 3)
         System.out.println();
 
         System.out.print("Enter Your Password : ");
